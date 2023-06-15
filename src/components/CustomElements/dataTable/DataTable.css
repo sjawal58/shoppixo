@@ -1,0 +1,57 @@
+.css-levciy-MuiTablePagination-displayedRows{
+    margin-bottom: 5px !important;
+   }
+   .css-pdct74-MuiTablePagination-selectLabel{
+   margin-bottom: 5px !important;
+   }
+   /* ------------------------ */
+  
+  .MuiDataGrid-root {
+    width: 100% !important;
+  }
+  .MuiDataGrid-main {
+    width: 100% !important;
+  }
+  .MuiDataGrid-row .MuiDataGrid-cell {
+    overflow: initial !important;
+    word-break: break-all !important;
+    white-space: normal !important;
+  }
+  
+  .MuiDataGrid-row .MuiDataGrid-cell .MuiDataGrid-cellContent {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  
+    /* word-wrap: break-word !important; */
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+  }
+  
+  .MuiDataGrid-root .MuiDataGrid-columnHeaders {
+    line-height: 16px !important;
+  }
+  .MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+    font-family: Poppins-Bold;
+  }
+  .MuiDataGrid-root .MuiDataGrid-cell {
+    font-family: Poppins;
+  }
+  .MuiDataGrid-root .MuiDataGrid-virtualScroller {
+    overflow-x: scroll !important;
+  }
+  
+  .MuiDataGrid-cellCheckbox {
+    position: sticky !important;
+    left: 0 !important;
+    background-color: #ffffff !important;
+  }
+  .MuiDataGrid-cell-action-customstyles {
+    position: sticky !important;
+    right: 0 !important;
+    background-color: #ffffff !important;
+    margin-left: 15px !important;
+  }
+  
+  

@@ -1,0 +1,4 @@
+export const VALIDATOR_CHECK = "VALIDATOR_CHECK";
+export const TOKEN_SET = "TOKEN_SET";
+export const TOKEN_EXPIRY_TIME = "TOKEN_EXPIRY_TIME";
+

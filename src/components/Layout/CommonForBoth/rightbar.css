@@ -1,0 +1,27 @@
+
+#page-header-user-dropdown  {
+    display: flex;
+    align-items: center;
+}
+#page-header-user-dropdown .user_profile_name_wrapper {
+    display: inline-block;
+    width: 140px;
+    text-align: start;
+}
+#page-header-user-dropdown .user_profile_name_wrapper .user_profile_name {
+    display: flex;
+    align-items: center;
+}
+#page-header-user-dropdown .user_profile_name_wrapper .user_profile_name .u_name {
+    /* display: inline-block; */
+    text-transform: capitalize;
+    /* ------- */
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+
