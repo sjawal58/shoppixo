@@ -1,0 +1,87 @@
+.user_auth__wrapped {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.user_auth__wrapped h4 {
+  font-family: Poppins-Bold;
+  font-weight: 800;
+}
+.user_auth__wrapped label {
+  font-family: Poppins;
+}
+.user_auth__wrapped input {
+  font-family: Poppins;
+}
+
+.user_submit_btn {
+  width: 100%;
+  background-color: var(--color-primary) !important;
+  color: #ffffff !important;
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.user_submit_btn:hover, .user_submit_btn:focus {
+  background-color: var(--color-primary-hover) !important;
+}
+
+.user_auth__wrapped .user_submit_btn:disabled {
+  color: rgba(0, 0, 0, 0.36) !important;
+}
+
+.user_switch_account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.user_switch_account p {
+  margin-bottom: 0;
+  font-family: Poppins;
+  font-size: 15px;
+}
+.user_switch_account button,
+.user_switch_account button:focus {
+  background-color: var(--color-primary) !important;
+  color: #ffffff !important;
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+  font-size: 11px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.user_switch_account button:hover,
+.user_switch_account button:focus {
+  background-color: var(--color-primary-hover) !important;
+}
+
+.auth_forgot_btn {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-weight: 700;
+  transition: 0.5s;
+}
+.auth_forgot_btn:hover {
+  color: var(--color-primary-hover);
+}
+
+@media (max-width: 768px) {
+  #return_button {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  #return_button {
+    margin-top: 10px;
+    font-size: 15px !important;
+  }
+}

@@ -1,0 +1,23 @@
+.products_ads-page-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ads-info-flash-header {
+    padding: 10px 0px;
+    border-bottom: 2px solid #b8b7b7;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.AdsInfoFlashBox-box:not(:last-child) {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.products_ads-products-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
