@@ -1,0 +1,10 @@
+.password_field_wrap {
+    position: relative;
+}
+.password_field_wrap span.fa {
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    background-color: #FFFF;
+    cursor: pointer;
+}
